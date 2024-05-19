@@ -1,3 +1,14 @@
+para crear un modelo 3d en react, todo esto en la carpeta donde esta el modelo
+npm install -g gltf-pipeline
+comprimir el archivo
+gltf-pipeline -i scene.gltf -o house.gltf --draco.compressionLevel=10
+luego generar el archivo JSX con 
+npx gltf house.gltf
+crear un proyecto PURO de reactjs con npx
+luego agregar estas librerias npm
+npm i @react-three/drei
+npm install three @react-three/fiber
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
